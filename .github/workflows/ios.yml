@@ -9,7 +9,8 @@ on:
 jobs:
   build:
     name: Build and Test default
-    runs-on: self-hosted
+    runs-on:
+      group: bitrise
 
     steps:
       - name: Checkout
